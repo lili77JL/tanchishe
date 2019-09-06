@@ -1,4 +1,4 @@
-//关于游戏的自调用函数
+//游戏的自调用函数
 (function () {
     var that = null;
 

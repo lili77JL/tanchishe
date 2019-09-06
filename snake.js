@@ -1,6 +1,6 @@
 //关于小蛇的自调用函数
 (function () {
-    var element = [];//用来保存组成小蛇的方块的
+    var element = [];//用来保存组成小蛇方块的数组
 
     //构造小蛇的函数
     function Snake(width, height, direction) {
