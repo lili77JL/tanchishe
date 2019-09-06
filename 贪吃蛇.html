@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .map {
+            width: 800px;
+            height: 600px;
+            background-color: #ccc;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<!--画出地图，设置样式-->
+<div class="map"></div>
+<script src="food.js"></script>
+<script src="snake.js"></script>
+<script src="game.js"></script>
+<script>
+    //实例化游戏对象
+    var game = new Game();
+    //调用游戏的原型方法
+    game.init();
+</script>
+</body>
+</html>
